@@ -1,0 +1,113 @@
+Afton Lewis
+
+
+Kyle Porter
+52467024
+
+Patrick Colp
+92832047
+
+
+
+Hardware and Software Environment
+=================================
+
+  Hardware: Anything that runs Java SE 5.0 JRE with network support
+  Software: Any operating environment with Java SE 5.0 JRE
+
+
+Final Project
+=============
+
+  Collaborative whiteboarding application
+
+  We aim to design a vector-based peer-to-peer drawing application.  Users will join to known peers and share a whiteboard.  Each user's drawings will appear on all his peers whiteboards as well.
+  
+  We hope to implement more advanced features such as chatting, personal messaging, permissions controls on the drawings and on the whiteboard (kicking/banning users).  We'd also like to implement cut/copy/paste and undo/redo.
+
+
+Major Risks and Risk Mitigation
+===============================
+
+  Project scope might be too large for alloted time
+   - create list of features that must, should, may be implemented
+   - this "must-should-maybe" list could be applied to each milestone, although all but the last milestone will probably just have "must" (shoulds and maybes being pushed down into later milestones)
+
+  Project scope might be too small for alloted time
+   - add more features (implement all of the "wish-list")
+
+  Shape protocol may be too complex
+   - can use Java serialized Objects instead
+
+
+Milestones
+==========
+
+  Milestone 1
+  -----------
+    Establishing connecting, communicating, dealing with crashes, terminating connections nicely
+
+  Milestone 2
+  -----------
+    Protocol - connect and send something (hello, bye)
+    GUI - Prototype
+    
+  Milestone 3
+  -----------
+    GUI - Network-aware
+
+  Milestone 4
+  -----------
+    Protocol - points, lines, polygons/shapes, text
+    GUI - basic whiteboard
+
+  Milestone 5
+  -----------
+    Protocol - concurrency control
+    GUI - iteration
+
+  Milestone 6
+  -----------
+    Protocol - erasing, attribution
+    GUI - iteration
+
+  Milestone 7
+  -----------
+    Protocol - fill, alpha, permissions, user banning
+    GUI - iteration
+
+  Milestone 8
+  -----------
+    Protocol - extra goodies
+    GUI - extra goodies
+
+
+
+Feature Wish-List
+=========================
+
+<feature>                        <milestone>
+
+
+points                              4
+lines                               4
+rectangle                           4
+circle                              4
+ellipse/oval                        4
+text                                4
+attribution                         6
+polylines/collection                4
+fill/alpha/gradient                 7
+erase                               6
+permissions                         7
+save/load                           4
+undo/redo                           8
+zoom                                8
+encryption/compression              8
+open (room) / closed (im) chats     5
+macro                               8
+users list                          2
+printing/export                     8
+transforms                          8
+cut/copy/paste                      8
+passwords/banning/kicking           7

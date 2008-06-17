@@ -1,0 +1,11 @@
+README:
+Authors: Afton Lewis, Kyle Porter, Patrick Colp
+
+
+This is the zip of the java whiteboard project. Simply importing 
+into eclipse should be sufficient. The main() class is located in
+whiteboard.gui.startlist.ConnectWindow.java
+
+NOTE: before connecting, user should go to ConnectWindow->user preferences
+and set a unique user name.
+
